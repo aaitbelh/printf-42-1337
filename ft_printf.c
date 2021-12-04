@@ -60,6 +60,5 @@ int	ft_printf(const char *str, ...)
 		str++;
 	}
 	va_end(ptr);
-	va_start(ptr,str);
 	return (count);
 }
